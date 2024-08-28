@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-color: rgb(251 146 60);
+    --black-color: #ddd;
+    --max-width: 480px;
+}
+/* Overide primary color */
+.btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #a16900;
+}
+
+.btn-primary:active, .btn-primary:focus {
+    --bs-btn-active-bg: var(--primary-color);
+}
+
+input {
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 14px;
+}
+
+.input:focus {
+    border: 1px solid #ccc;
+}

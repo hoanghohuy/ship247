@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-    --primary-color: rgb(251 146 60);
+    --primary-color: #f54e2a;
     --black-color: #ddd;
     --max-width: 480px;
 }
@@ -23,7 +23,7 @@
 input {
     padding: 10px 12px;
     border-radius: 8px;
-    border: 1px solid #ddd;
+    border: 1px solid #f54e2a;
     outline: none;
     font-size: 14px;
 }
